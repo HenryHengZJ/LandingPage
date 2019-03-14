@@ -1,8 +1,9 @@
 import React from 'react';
+import { Button} from 'reactstrap';
 
 const Navbar = () => {
   return (
-    <nav className="teal lighten-1">
+    <nav className="transparent lighten-1">
       <div className="nav-wrapper">
         <a href="" className="brand-logo left">Logo</a>
         <a href="#" data-activates="mobile-demo" className="button-collapse right">
@@ -23,6 +24,9 @@ const Navbar = () => {
           </li>
           <li>
             <a href="">Contact</a>
+          </li>
+          <li>
+            <a href="">Sign In</a>
           </li>
         </ul>
       </div>

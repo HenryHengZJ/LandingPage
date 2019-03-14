@@ -7,14 +7,16 @@ import About from './About';
 import LatestNews from './LatestNews';
 import SocialBrand from './SocialBrand';
 import Footer from './Footer';
+import Shops from './Shops';
 
 const App = () => {
   return (
     <div id="app">
       <Navbar />
       <Hero />
-      <Exemplar />
+      <Shops/>
       <Features />
+      <Exemplar />
       <About />
       <LatestNews />
       <SocialBrand />

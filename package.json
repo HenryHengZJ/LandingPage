@@ -19,9 +19,11 @@
   },
   "homepage": "https://github.com/iwilsonq/react-material-landing-page#readme",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "express": "^4.14.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
+    "reactstrap": "^7.1.0",
     "url-loader": "^0.5.8"
   },
   "devDependencies": {

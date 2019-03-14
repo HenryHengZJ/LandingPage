@@ -8,6 +8,28 @@ section {
   padding: 48px 0;
 }
 
+.grayscaleimg {
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  opacity: 0.3;
+}
+
+/* Disable grayscale on hover */
+.grayscaleimg:hover {
+  -webkit-filter: grayscale(0);
+  filter: none;
+  opacity: 0.7;
+}
+
+
+.darkoverlay {
+  color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: -50px;
+  margin-bottom: -50px
+}
+
 section#footer {
   padding: 24px 0;
 }
